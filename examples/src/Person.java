@@ -6,6 +6,7 @@ public class Person {
 	private String city;
 	private String state;
 	private int zip;
+	private int age;
 	
 	
 	public String getFirstName() {
@@ -52,5 +53,13 @@ public class Person {
 	public void speak(String talk){
 		System.out.println(talk);
 	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		if(age > 0 && age < 110)
+			this.age = age;
+	}
 
+	
 }
