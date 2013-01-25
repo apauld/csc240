@@ -1,16 +1,25 @@
+import java.util.Scanner;
 
-public class Test {
+/*
+This is a big block comment
+Author: Aaron
+Program: Does this one thing , block comment
+Date: today
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		
-		String hello = "Hello";
-		int x = 100;
-		x = 200;
-		System.out.println(x);
-	}
+*/
+
+public class Test {	
 	
-
+	public static void main(String[] args) {
+	    //This is an inline comment	
+	    Scanner input = new Scanner(System.in);
+	    System.out.println("Age please:"); 
+	    int age = input.nextInt();
+	  				
+	    if(!true)
+	  	System.out.println("Barely legal");
+	    else
+	  	System.out.println("Legal");
+	  											
+	}	  
 }
