@@ -16,8 +16,8 @@ public class Test {
 	    System.out.println("Age please:"); 
 	    int age = input.nextInt();
 	  				
-	    if(!true)
-	  	System.out.println("Barely legal");
+	    if(age < 18)
+	  	System.out.println("Not legal");
 	    else
 	  	System.out.println("Legal");
 	  											
